@@ -1,0 +1,4 @@
+com\tomate\service\TomatePrecoService.class
+com\tomate\dto\PrecoResposta.class
+com\tomate\controlador\TomatoController.class
+com\tomate\TomateAplicacao.class
