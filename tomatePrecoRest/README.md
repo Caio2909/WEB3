@@ -316,12 +316,12 @@ com.tomate
 - **Exception Handling** - Tratamento de erros centralizado
 
 ### Boas Práticas Implementadas
-- ✅ **Validação de entrada** - Verificação de parâmetros
-- ✅ **Precisão monetária** - Uso de `BigDecimal`
-- ✅ **Logging profissional** - SLF4J em vez de `System.out.println`
-- ✅ **Separação de responsabilidades** - Cada classe tem uma função específica
-- ✅ **Tratamento de erros** - Respostas HTTP apropriadas
-- ✅ **Documentação** - Comentários explicativos no código
+-  **Validação de entrada** - Verificação de parâmetros
+-  **Precisão monetária** - Uso de `BigDecimal`
+-  **Logging profissional** - SLF4J em vez de `System.out.println`
+-  **Separação de responsabilidades** - Cada classe tem uma função específica
+-  **Tratamento de erros** - Respostas HTTP apropriadas
+-  **Documentação** - Comentários explicativos no código
 
 ## Logs e Monitoramento
 
