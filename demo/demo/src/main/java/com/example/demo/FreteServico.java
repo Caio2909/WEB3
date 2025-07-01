@@ -3,20 +3,16 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class FreteServico {
-
-    public float calcularFrete(int distancia, int quantidadeCaixas) {
+    public float calcularFrete(int distancia, String tipoVeiculo) {
         float precoPorKm;
         float taxaFixa;
-        int capacidade;
 
-        if (quantidadeCaixas <= 250) {
+        if ("caminhao".equalsIgnoreCase(tipoVeiculo)) {
             precoPorKm = 20;
             taxaFixa = 200;
-            capacidade = 250;
         } else {
             precoPorKm = 40;
             taxaFixa = 400;
-            capacidade = 1500;
         }
 
         float custoVariavel;

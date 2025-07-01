@@ -12,7 +12,7 @@ public class FreteController {
     private FreteServico freteServico;
 
     @QueryMapping
-    public float calcularFrete(@Argument int distancia, @Argument int quantidadeCaixas) {
-        return freteServico.calcularFrete(distancia, quantidadeCaixas);
+    public float calcularFrete(@Argument int distancia, @Argument String tipoVeiculo) {
+        return freteServico.calcularFrete(distancia, tipoVeiculo);
     }
 }
