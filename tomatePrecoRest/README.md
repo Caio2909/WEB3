@@ -6,17 +6,6 @@ API REST para cálculo de preços de tomate com sistema de descontos baseado na 
 
 Este é um serviço web desenvolvido em **Spring Boot** que calcula o preço final de caixas de tomate aplicando descontos progressivos conforme a quantidade solicitada. O sistema implementa uma arquitetura em camadas com separação clara de responsabilidades.
 
-##  Arquitetura do Sistema
-
-
-📁 src/main/java/com/tomate/
-├── 🚀 TomateAplicacao.java          # Classe principal (Spring Boot)
-├── 🎮 controlador/
-│   └── TomatoController.java        # Controlador REST (API endpoints)
-├── ⚙️ service/
-│   └── TomatePrecoService.java      # Lógica de negócio (cálculos)
-└── 📦 dto/
-    └── PrecoResposta.java           # Objeto de resposta (JSON)
 
 ## Tecnologias Utilizadas
 
