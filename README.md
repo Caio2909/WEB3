@@ -6,12 +6,12 @@ Este é um projeto Spring Boot que calcula o valor do frete com base na distânc
 
   * Java 17 ou superior
   * Gradle 8.14.2 ou superior
-
+  * Talvez seja necessário definir a variável JAVA_HOME caso ocorra um erro por causa dela, para conserta-lo no windows basta seguir esse tutorial: https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 ## Instalação
 
 1.  Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/demo.git
+    git clone https://github.com/Caio2909/WEB3/tree/Servi%C3%A7o2---Frete
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
