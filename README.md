@@ -185,30 +185,6 @@ public class PrecoResposta {
 }
 ```
 
-##  Como Executar
-
-### Pré-requisitos
-- **Java 17** ou superior
-- **Maven** (opcional - projeto inclui Maven Wrapper)
-
-### Execução Rápida
-```bash
-# Usando Maven Wrapper (recomendado)
-.\mvnw.cmd spring-boot:run
-
-# Ou usando Maven instalado
-mvn spring-boot:run
-```
-
-### Compilação
-```bash
-# Compilar projeto
-.\mvnw.cmd clean compile
-
-# Criar JAR executável
-.\mvnw.cmd clean package
-```
-
 ## Como Usar a API
 
 ### Endpoint Principal
