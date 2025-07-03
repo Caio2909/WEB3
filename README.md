@@ -16,7 +16,7 @@ Este é um serviço web desenvolvido em **Spring Boot** que calcula o preço fin
 - **SLF4J + Logback** - Sistema de logging
 - **Tomcat** - Servidor web embutido
 
-## 📊 Regras de Negócio
+## Regras de Negócio
 
 ### Tabela de Descontos
 | Quantidade de Caixas | Desconto Aplicado |
