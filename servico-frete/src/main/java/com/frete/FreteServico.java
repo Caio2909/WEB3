@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.frete;
 import org.springframework.stereotype.Service;
 
 @Service

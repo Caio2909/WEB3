@@ -10,14 +10,14 @@ import org.springframework.core.env.Environment;
 
 
 @SpringBootApplication
-public class TomateAplicacao {
+public class TomateApplication {
 
-    private static final Logger logger = LoggerFactory.getLogger(TomateAplicacao.class);
+    private static final Logger logger = LoggerFactory.getLogger(TomateApplication.class);
 
 
    
     public static void main(String[] args) {
-        SpringApplication.run(TomateAplicacao.class, args);
+        SpringApplication.run(TomateApplication.class, args);
     }
 
      

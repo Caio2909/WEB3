@@ -1,7 +1,6 @@
 package com.mashup.controller;
 
 import com.mashup.dto.ResultadoVendaDTO;
-// A CORREÇÃO ESTÁ AQUI:
 import com.mashup.service.MashupService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -10,7 +10,6 @@ public class ResultadoVendaDTO {
     private BigDecimal impostos;
     private BigDecimal valorFinal;
 
-    // Getters and Setters
     public BigDecimal getPrecoTomates() { return precoTomates; }
     public void setPrecoTomates(BigDecimal precoTomates) { this.precoTomates = precoTomates; }
     public BigDecimal getCustoFrete() { return custoFrete; }
