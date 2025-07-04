@@ -103,9 +103,9 @@ O custo do frete é composto por uma taxa fixa mais um custo variável por quil�
 
 ### Estrutura do Código
 
-* `com.example.demo.DemoApplication`: Ponto de entrada da aplicação.
-* `com.example.demo.FreteController`: Controlador GraphQL que mapeia a query `calcularFrete`.
-* `com.example.demo.FreteServico`: Contém a lógica de cálculo do frete.
+* `com.frete.FreteApplication`: Ponto de entrada da aplicação.
+* `com.frete.FreteController`: Controlador GraphQL que mapeia a query `calcularFrete`.
+* `com.frete.FreteServico`: Contém a lógica de cálculo do frete.
 
 ### Como Usar a API
 
@@ -163,12 +163,14 @@ Este serviço atua como um agregador, recebendo a quantidade de tomates e a dist
     ```
 * **Exemplo de Resposta (JSON)**:
     ```json
-    {
-        "precoTomates": 712.50,
-        "custoFrete": 3000.00,
-        "tipoCaminhao": "caminhao",
-        "lucro": 371.25,
-        "impostos": 185.63,
-        "valorFinal": 4269.38
-    }
+        {
+            "precoTomates": 712.50,
+            "custoFrete": 3000.00,
+            "tipoCaminhao": "caminhao",
+            "lucro": 2041.88,
+            "impostos": 1553.68,
+            "valorFinal": 7308.06
+        }
     ```
+* **Exemplo no Postman**:
+![image](https://github.com/user-attachments/assets/52734a12-517c-4d8f-bbf1-25566d717059)
