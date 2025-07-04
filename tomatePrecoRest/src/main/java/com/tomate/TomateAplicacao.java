@@ -30,7 +30,7 @@ public class TomateAplicacao {
             logger.info(" Serviço de Preço do Tomate iniciado com sucesso!");
             logger.info(" API REST está no ar e pronta para receber requisições.");
             logger.info("");
-            logger.info(" Endpoint principal: http://localhost:{}/api/tomate/preco?quantidade=", port);
+            logger.info(" Endpoint principal: http://localhost:{}/api/tomate/preco?quantidade=0", port);
             logger.info("----------------------------------------------------------");
         };
     }
