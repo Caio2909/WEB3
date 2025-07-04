@@ -87,9 +87,8 @@ Este serviço, construído com Spring for GraphQL, oferece um único endpoint pa
 ### Instalação e Execução
 
 1.  Clone o repositório.
-2.  Navegue até o diretório do projeto: `cd Serviço2---Frete/demo/demo`
-3.  Compile o projeto: `./gradlew build`
-4.  Execute a aplicação: `./gradlew bootRun`
+2.  Navegue até o diretório do projeto: `cd servico-frete`
+3.  Execute o método main da classe `FreteApplication`
 
 A aplicação estará disponível na porta `8081`.
 
