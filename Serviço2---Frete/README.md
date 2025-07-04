@@ -1,12 +1,11 @@
 # Demo
 
-Este é um projeto Spring Boot que calcula o valor do frete com base na distância e no tipo de veículo.
-
-## Pré-requisitos
+Este é um projeto GraphQL com Spring Boot que calcula o valor do frete com base na distância e no tipo de veículo, para gerar esse projeto foi usado o site recomendado (https://start.spring.io/)
+## Pré-requisito
 
   * Java 17 ou superior
   * Gradle 8.14.2 ou superior
-  * Talvez seja necessário definir a variável JAVA_HOME caso ocorra um erro por causa dela, para conserta-lo no windows basta seguir esse tutorial: https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
+  * Talvez seja necessário definir a variável JAVA_HOME caso ocorra um erro por causa dela, para conserta-lo no windows basta seguir esse tutorial: [https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html]
 ## Instalação
 
 1.  Clone o repositório:
